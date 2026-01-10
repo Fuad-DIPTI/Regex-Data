@@ -1,0 +1,139 @@
+Report ID: RPT-2001
+Customer Name: John Doe
+Email: john.doe@gmail.com
+Issue Type: Payment Failure
+Description: The customer attempted payment multiple times using a debit card but the transaction failed due to a gateway timeout error.
+Date: 2024-06-01
+
+Report ID: RPT-2002
+Customer Name: Alice Smith
+Email: alice.smith@yahoo.com
+Issue Type: Login Issue
+Description: User is unable to login after resetting the password and receives an invalid credentials message.
+Date: 2024-06-02
+
+Report ID: RPT-2003
+Customer Name: Bob Johnson
+Email: bob.johnson@outlook.com
+Issue Type: Account Suspension
+Description: Account was temporarily suspended due to suspicious login attempts from multiple IP addresses.
+Date: 2024-06-03
+
+Report ID: RPT-2004
+Customer Name: Emma Watson
+Email: emma.watson@gmail.com
+Issue Type: Payment Failure
+Description: Payment amount was deducted from the bank account but the order status remains pending.
+Date: 2024-06-04
+
+Report ID: RPT-2005
+Customer Name: Michael Brown
+Email: michael.brown@gmail.com
+Issue Type: Refund Request
+Description: Customer is requesting a refund because the product delivered was damaged and unusable.
+Date: 2024-06-05
+
+Report ID: RPT-2006
+Customer Name: Sophia Taylor
+Email: sophia.taylor@icloud.com
+Issue Type: Login Issue
+Description: User reports that the account gets locked every time an incorrect password is entered once.
+Date: 2024-06-06
+
+Report ID: RPT-2007
+Customer Name: Daniel Wilson
+Email: daniel.wilson@hotmail.com
+Issue Type: Account Suspension
+Description: Account was suspended after violation of platform terms related to suspicious transactions.
+Date: 2024-06-07
+
+Report ID: RPT-2008
+Customer Name: Olivia Martinez
+Email: olivia.martinez@gmail.com
+Issue Type: Payment Failure
+Description: Credit card payment failed due to insufficient funds even though the balance is available.
+Date: 2024-06-08
+
+Report ID: RPT-2009
+Customer Name: William Anderson
+Email: william.anderson@yahoo.com
+Issue Type: Refund Request
+Description: Customer wants a refund because the order was cancelled automatically after payment.
+Date: 2024-06-09
+
+Report ID: RPT-2010
+Customer Name: Ava Thomas
+Email: ava.thomas@gmail.com
+Issue Type: Login Issue
+Description: User is stuck on the two-factor authentication screen and cannot proceed further.
+Date: 2024-06-10
+
+Report ID: RPT-2011
+Customer Name: James Harris
+Email: james.harris@outlook.com
+Issue Type: Account Suspension
+Description: The system detected unusual activity and suspended the account without prior warning.
+Date: 2024-06-11
+
+Report ID: RPT-2012
+Customer Name: Isabella Clark
+Email: isabella.clark@gmail.com
+Issue Type: Payment Failure
+Description: UPI payment failed due to bank server downtime during peak hours.
+Date: 2024-06-12
+
+Report ID: RPT-2013
+Customer Name: Ethan Lewis
+Email: ethan.lewis@yahoo.com
+Issue Type: Refund Request
+Description: Customer is requesting a refund because the wrong item was shipped.
+Date: 2024-06-13
+
+Report ID: RPT-2014
+Customer Name: Mia Walker
+Email: mia.walker@gmail.com
+Issue Type: Login Issue
+Description: Password reset email is not being received even after multiple attempts.
+Date: 2024-06-14
+
+Report ID: RPT-2015
+Customer Name: Alexander Hall
+Email: alexander.hall@outlook.com
+Issue Type: Account Suspension
+Description: Account suspended due to detection of automated bot-like behavior.
+Date: 2024-06-15
+
+Report ID: RPT-2016
+Customer Name: Charlotte Young
+Email: charlotte.young@gmail.com
+Issue Type: Payment Failure
+Description: Payment was declined due to an unknown error code returned by the bank.
+Date: 2024-06-16
+
+Report ID: RPT-2017
+Customer Name: Benjamin King
+Email: benjamin.king@yahoo.com
+Issue Type: Refund Request
+Description: Customer wants a refund because the service was not delivered on time.
+Date: 2024-06-17
+
+Report ID: RPT-2018
+Customer Name: Amelia Scott
+Email: amelia.scott@gmail.com
+Issue Type: Login Issue
+Description: User reports frequent session timeouts while trying to login.
+Date: 2024-06-18
+
+Report ID: RPT-2019
+Customer Name: Henry Green
+Email: henry.green@outlook.com
+Issue Type: Account Suspension
+Description: Account suspended after multiple failed identity verification attempts.
+Date: 2024-06-19
+
+Report ID: RPT-2020
+Customer Name: Evelyn Adams
+Email: evelyn.adams@gmail.com
+Issue Type: Refund Request
+Description: Customer is requesting a refund as the subscription was renewed without consent.
+Date: 2024-06-20
