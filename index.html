@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Data Scraping Practice Site</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header id="main-header">
+    <h1>Global Product & Company Directory</h1>
+    <p class="subtitle">Large dataset for web scraping practice</p>
+</header>
+
+<nav class="navbar">
+    <ul>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#companies">Companies</a></li>
+        <li><a href="#employees">Employees</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+    </ul>
+</nav>
+
+<main>
+
+<!-- ================= PRODUCTS ================= -->
+<section id="products">
+    <h2>Product Catalog</h2>
+
+    <div class="product-grid">
+
+        <div class="product-card" data-category="electronics" data-stock="yes">
+            <h3 class="product-name">Smartphone X100</h3>
+            <p class="brand">Brand: TechNova</p>
+            <p class="price">$799</p>
+            <p class="rating" data-rating="4.5">Rating: 4.5</p>
+            <ul class="features">
+                <li>128GB Storage</li>
+                <li>5G Support</li>
+                <li>OLED Display</li>
+            </ul>
+        </div>
+
+        <div class="product-card" data-category="electronics" data-stock="no">
+            <h3 class="product-name">Laptop Pro 15</h3>
+            <p class="brand">Brand: ComputeMax</p>
+            <p class="price">$1499</p>
+            <p class="rating" data-rating="4.8">Rating: 4.8</p>
+            <ul class="features">
+                <li>16GB RAM</li>
+                <li>1TB SSD</li>
+                <li>Intel i9</li>
+            </ul>
+        </div>
+
+        <div class="product-card" data-category="home">
+            <h3 class="product-name">Air Purifier A20</h3>
+            <p class="brand">Brand: HomePure</p>
+            <p class="price">$299</p>
+            <p class="rating" data-rating="4.2">Rating: 4.2</p>
+            <ul class="features">
+                <li>HEPA Filter</li>
+                <li>Silent Mode</li>
+                <li>Energy Efficient</li>
+            </ul>
+        </div>
+
+        <!-- Repeatable structure for scraping -->
+        <div class="product-card" data-category="fitness">
+            <h3 class="product-name">Fitness Tracker Z3</h3>
+            <p class="brand">Brand: FitPulse</p>
+            <p class="price">$129</p>
+            <p class="rating" data-rating="4.0">Rating: 4.0</p>
+            <ul class="features">
+                <li>Heart Rate Monitor</li>
+                <li>Sleep Tracking</li>
+                <li>Water Resistant</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= COMPANIES ================= -->
+<section id="companies">
+    <h2>Company Directory</h2>
+
+    <table class="data-table">
+        <thead>
+            <tr>
+                <th>Company Name</th>
+                <th>Industry</th>
+                <th>Country</th>
+                <th>Founded</th>
+                <th>Employees</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>TechNova</td>
+                <td>Electronics</td>
+                <td>USA</td>
+                <td>2010</td>
+                <td>1200</td>
+            </tr>
+            <tr>
+                <td>ComputeMax</td>
+                <td>Computing</td>
+                <td>Germany</td>
+                <td>2005</td>
+                <td>850</td>
+            </tr>
+            <tr>
+                <td>HomePure</td>
+                <td>Home Appliances</td>
+                <td>Japan</td>
+                <td>2015</td>
+                <td>430</td>
+            </tr>
+            <tr>
+                <td>FitPulse</td>
+                <td>Fitness Tech</td>
+                <td>UK</td>
+                <td>2018</td>
+                <td>220</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<!-- ================= EMPLOYEES ================= -->
+<section id="employees">
+    <h2>Employee Records</h2>
+
+    <div class="employee-list">
+
+        <div class="employee" data-id="E001">
+            <h4 class="employee-name">Alice Johnson</h4>
+            <p class="role">Software Engineer</p>
+            <p class="salary" data-salary="95000">$95,000</p>
+            <span class="location">USA</span>
+        </div>
+
+        <div class="employee" data-id="E002">
+            <h4 class="employee-name">Mark Weber</h4>
+            <p class="role">Hardware Engineer</p>
+            <p class="salary" data-salary="88000">$88,000</p>
+            <span class="location">Germany</span>
+        </div>
+
+        <div class="employee" data-id="E003">
+            <h4 class="employee-name">Sakura Tanaka</h4>
+            <p class="role">Product Designer</p>
+            <p class="salary" data-salary="72000">$72,000</p>
+            <span class="location">Japan</span>
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= REVIEWS ================= -->
+<section id="reviews">
+    <h2>Customer Reviews</h2>
+
+    <article class="review" data-product="Smartphone X100">
+        <h4 class="reviewer">John Doe</h4>
+        <p class="review-text">Excellent phone with amazing battery life.</p>
+        <span class="review-score" data-score="5">★★★★★</span>
+    </article>
+
+    <article class="review" data-product="Laptop Pro 15">
+        <h4 class="reviewer">Emily Clark</h4>
+        <p class="review-text">Powerful but slightly expensive.</p>
+        <span class="review-score" data-score="4">★★★★☆</span>
+    </article>
+
+    <article class="review" data-product="Air Purifier A20">
+        <h4 class="reviewer">Liam Smith</h4>
+        <p class="review-text">Very quiet and effective.</p>
+        <span class="review-score" data-score="4.5">★★★★☆</span>
+    </article>
+
+</section>
+
+</main>
+
+<footer id="main-footer">
+    <p>© 2026 Data Scraping Practice Site</p>
+</footer>
+
+</body>
+</html>
